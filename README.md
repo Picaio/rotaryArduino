@@ -1,1 +1,1 @@
-Stl y Codigo Base giratoria Arduino Nano
+Stl y Código Base giratoria Arduino Nano
