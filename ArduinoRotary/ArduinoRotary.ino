@@ -9,10 +9,8 @@ CheapStepper stepper (2,3,4,5);
 void setup() 
 {
 pinMode(inPin, INPUT_PULLUP);
-pinMode(buzzer, OUTPUT);
 stepper.setRpm(12);
 Serial.begin(9600);
-startSound();
 }
 
 void loop() 
@@ -42,7 +40,6 @@ void option()
   val = digitalRead(inPin);  
   if(val == LOW)
 {
-  selectSound();
   stanButton=(stanButton + 1); 
 }
 }
